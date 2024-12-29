@@ -60,7 +60,12 @@ const options: ApexOptions = {
     fontSize: "14px",
 
     markers: {
-      radius: 99,
+      size: 10, // Tamanho do marcador
+      strokeWidth: 3, // Espessura da borda do marcador
+      shape: 'circle', // Forma do marcador
+      fillColors: ['#FF4560'], // Cor do marcador
+      offsetX: 0,
+      offsetY: 0,
     },
   },
   fill: {
