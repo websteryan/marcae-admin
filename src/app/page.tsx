@@ -6,7 +6,7 @@ import ProtectedRoute from "@/context/protectedRoute";
 
 export const metadata: Metadata = {
   title:
-    "Next.js E-commerce Dashboard | TailAdmin - Next.js Dashboard Template",
+    "Marcaê",
   description: "This is Next.js Home for TailAdmin Dashboard Template",
 };
 
