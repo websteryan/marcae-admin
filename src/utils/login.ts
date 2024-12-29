@@ -1,6 +1,6 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "@/firebase/config";
+import { auth } from "@/firebase/firebase";
 
 const login = async (email: string, password: string, clientId: string) => {
   try {
